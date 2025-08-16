@@ -1,0 +1,24 @@
+{
+  "name": "books-authors-spa",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "vue": "^3.3.11",
+    "pinia": "^2.1.7",
+    "vue-router": "^4.2.5",
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "@vueuse/core": "^10.7.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  }
+}
